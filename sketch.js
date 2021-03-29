@@ -19,8 +19,7 @@ function setup() {
 	packageSprite.addImage(packageIMG)
 	packageSprite.scale=0.2
 	packageSprite.restitution = 1
-	packageSprite.x = packageBody.position.x
-	packageSprite.y = packageBody.position.y
+	
 
 	helicopterSprite=createSprite(width/2, 200, 10,10);
 	helicopterSprite.addImage(helicopterIMG)
